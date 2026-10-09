@@ -1,8 +1,4 @@
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 div {
     width: 350px;
@@ -15,14 +11,12 @@ div {
     align-items: center;
 }
 
-.foto {
-    object-fit: cover;
-    border-radius: 50px;
-}
 
 img {
     width: 200px;
     height: 200px;
+    object-fit: cover;
+    border-radius: 50px;
 }
 
 
@@ -30,7 +24,23 @@ button {
     width: 170px;
     height: 40px;
     border-radius: 15px;
+    border: none;
+    cursor: pointer;
 }
+
+
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*  ==============================================================
+                            ARAGORN
+    ============================================================== */
 
 .Aragorn {
     border-radius: 15px;
@@ -38,24 +48,63 @@ button {
     border-color: rgba(23, 194, 23, 0.699);
 }
 
-.Aragorn img, button {
+.foto-Aragorn {
+    border: solid 3px;
+    border-color: rgba(23, 194, 23, 0.699);
+}
+
+.btn-Aragorn {
     border: solid 3px;
     border-color: rgba(23, 194, 23, 0.699);
 }
 
 
 
+
+
+
+
+/*  ==============================================================
+                            GIMLI
+    ============================================================== */
+
 .Gimli {
     border-radius: 15px;
     border: solid 4px;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(146, 31, 31);
+}
+
+.foto-Gimli {
+    border: solid 3px;
+    border-color: rgb(146, 31, 31);
+}
+
+.btn-Gimli {
+    border: solid 3px;
+    border-color: rgb(146, 31, 31);
 }
 
 
 
+
+
+
+
+/*  ==============================================================
+                            LEGOLAS
+    ============================================================== */
 .Legolas {
     border-radius: 15px;
     border: solid 4px;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(182, 167, 32);
 }
 
+.foto-Legolas {
+    border: solid 3px;
+    border-color: rgb(182, 167, 32);
+}
+
+.btn-Legolas {
+    border: solid 3px;
+    border-color: rgb(182, 167, 32);
+}
